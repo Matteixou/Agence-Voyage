@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hébergements</title>
+<link rel="stylesheet" href="css. projet hotel.css">
+</head>
+<body> 
+    <div class="container"></div>
+    <!-- En-tête avec logo et barre de recherche -->
+    <header>
+        <h1><a href="#" class="logo">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/travel-agency-logo-design-template-dc7b0514e8ac16dd3e2cc83ad6814960.jpg?ts=1663755334" alt="Logo Travel">
+        </a>
+        </h1>
+        <div class="auth-buttons">
+            <a href="Page connexion pour l'hotel 1.html" class="auth-button">Connexion</a>
+            <a href="Page d'inscription pour l'hotel 1.html" class="auth-button">Inscription</a>
+        </div>
+    </header>
+
+    <input type="text" class="search-bar" placeholder="Rechercher une destination"> 
+
+    <!-- Section des filtres -->
+    <section aria-labelledby="filters-title">
+        <div>
+            <button type="button">Filtres</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button">Prix</button>
+            <button type="button">Nouveauté</button>
+            <button type="button">Pertinence</button>
+        </div>
+    </section>
+
+    <!-- Section principale des hébergements -->
+    <main>
+
+        <h2 id="accommodations-title">Hébergements :</h2>
+
+        <section class="hebergements-container" aria-labelledby="accommodations-title">
+
+            <div class="hotel-grid">
+
+                <div class="hotel-card">
+                    <img src="https://th.bing.com/th?id=OIP.QBUiJsy4nwCrN2e_3ALAkQHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&cb=13&dpr=1.3&pid=3.1&rm=2" alt="Image de l'Hôtel 1" class="hotel-image">
+                    <div class="hotel-info">
+                        <h3 class="hotel-name">Hotel 1</h3>
+                        <p class="hotel-price">Nuit à partir de 125€</p>
+                    </div>
+                </div>
+    
+                <div class="hotel-card">
+                    <img src="https://th.bing.com/th?id=OIP.BDSML0aOze7ZAy4ODYaKagHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&cb=13&dpr=1.3&pid=3.1&rm=2" alt="Image de l'Hôtel 2" class="hotel-image">
+                    <div class="hotel-info">
+                        <h3 class="hotel-name">Hotel 2</h3>
+                        <p class="hotel-price">Nuit à partir de 52€</p>
+                    </div>
+                </div>
+    
+                <div class="hotel-card">
+                    <img src="https://th.bing.com/th/id/OIP.ikIbti2RhnVbJZk3t31aJwHaEJ?w=322&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Image de l'Hôtel 3" class="hotel-image">
+                    <div class="hotel-info">
+                        <h3 class="hotel-name">Hotel 3</h3>
+                        <p class="hotel-price">Nuit à partir de 25€</p>
+                    </div>
+                </div>
+    
+                <div class= "hotel-card">
+                    <img src="https://th.bing.com/th/id/OIP.kWsCDTmLQ4tBj6X3yXA4UAHaGQ?w=223&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Image de l'Hôtel 4" class="hotel-image">
+                    <div class="hotel-info">
+                        <h3 class="hotel-name">Hotel 4</h3>
+                        <p class="hotel-price">Nuit à partir de 45€</p>
+                    </div>
+                </div>
+    
+                <div class="hotel-card">
+                    <img src="https://th.bing.com/th/id/OIP.bplZR4LxQI1YR0i_kF_HugHaE8?w=215&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Image de l'Hôtel 5" class="hotel-image">
+                    <div class="hotel-info">
+                        <h3 class="hotel-name">Hotel 5</h3>
+                        <p class="hotel-price">Nuit à partir de 23€</p>
+                    </div>
+                </div>
+    
+                <div class="hotel-card">
+                    <img src="https://th.bing.com/th/id/OIP.u_sQsMUBppGRfwISnvOXVAHaE7?w=348&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Image de l'Hôtel 6" class="hotel-image">
+                    <div class="hotel-info">
+                        <h3 class="hotel-name">Hotel 6</h3>
+                        <p class="hotel-price">Nuit à partir de 95€</p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+            </div>
+    <footer>
+        <h5>Mention Légale : @Matthieu_2024</h5>
+    </footer>
+</body>
+</html>
